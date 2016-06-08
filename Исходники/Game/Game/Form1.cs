@@ -19,10 +19,16 @@ namespace Game
         string v;
         string d;
         string z;
+        string n1;
+        string q1;
+        int w1, w2, w3, w4, w5 = 0;
+        
         //
         string[] a = new string[5];
         string[] b = new string[5];
         string[] c = new string[5];
+        string[] n = new string[5];
+        string[] q = new string[5];
         public Form1()
         {
             InitializeComponent();
@@ -49,6 +55,20 @@ namespace Game
             c[2] = "д";
             c[3] = "р";
             c[4] = "о";
+            //4 массив
+            n1 = "диван";
+            n[0] = "д";
+            n[1] = "и";
+            n[2] = "в";
+            n[3] = "а";
+            n[4] = "н";
+            //5 массив
+            q1 = "экран";
+            q[0] = "э";
+            q[1] = "к";
+            q[2] = "р";
+            q[3] = "а";
+            q[4] = "н";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -63,6 +83,101 @@ namespace Game
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if(w1 == 1)
+            {
+                if (textBox1.Text == v)
+                { MessageBox.Show("Вы победили!"); }
+                if (textBox1.Text == a[0])
+                { label1.Text = a[0]; count++; }
+                if (textBox1.Text == a[1])
+                { label2.Text = a[1]; count++; }
+                if (textBox1.Text == a[2])
+                { label3.Text = a[2]; count++; }
+                if (textBox1.Text == a[3])
+                { label4.Text = a[3]; count++; }
+                if (textBox1.Text == a[4])
+                { label5.Text = a[4]; count++; }
+                if (count >= 5)
+                {
+                    MessageBox.Show("Вы победили!");
+                }
+            }
+            if (w2 == 1)
+            {
+                if (textBox1.Text == d)
+                { MessageBox.Show("Вы победили!"); }
+                if (textBox1.Text == b[0])
+                { label1.Text = b[0]; count++; }
+                if (textBox1.Text == b[1])
+                { label2.Text = b[1]; count++; }
+                if (textBox1.Text == b[2])
+                { label3.Text = b[2]; count++; }
+                if (textBox1.Text == b[3])
+                { label4.Text = b[3]; count++; }
+                if (textBox1.Text == b[4])
+                { label5.Text = b[4]; count++; }
+                if (count >= 5)
+                {
+                    MessageBox.Show("Вы победили!");
+                }
+            }
+            if(w3 == 1)
+            {
+                if (textBox1.Text == z)
+                { MessageBox.Show("Вы победили!"); }
+                if (textBox1.Text == c[0])
+                { label1.Text = c[0]; count++; }
+                if (textBox1.Text == c[1])
+                { label2.Text = c[1]; count++; }
+                if (textBox1.Text == c[2])
+                { label3.Text = c[2]; count++; }
+                if (textBox1.Text == c[3])
+                { label4.Text = c[3]; count++; }
+                if (textBox1.Text == c[4])
+                { label5.Text = c[4]; count++; }
+                if (count >= 5)
+                {
+                    MessageBox.Show("Вы победили!");
+                }
+            }
+            if(w4 == 1)
+            {
+                if (textBox1.Text == n1)
+                { MessageBox.Show("Вы победили!"); }
+                if (textBox1.Text == n[0])
+                { label1.Text = n[0]; count++; }
+                if (textBox1.Text == n[1])
+                { label2.Text = n[1]; count++; }
+                if (textBox1.Text == n[2])
+                { label3.Text = n[2]; count++; }
+                if (textBox1.Text == n[3])
+                { label4.Text = n[3]; count++; }
+                if (textBox1.Text == c[4])
+                { label5.Text = n[4]; count++; }
+                if (count >= 5)
+                {
+                    MessageBox.Show("Вы победили!");
+                }
+            }
+            if(w5==1)
+            {
+                if (textBox1.Text == q1)
+                { MessageBox.Show("Вы победили!"); }
+                if (textBox1.Text == q[0])
+                { label1.Text = q[0]; count++; }
+                if (textBox1.Text == q[1])
+                { label2.Text = q[1]; count++; }
+                if (textBox1.Text == q[2])
+                { label3.Text = q[2]; count++; }
+                if (textBox1.Text == q[3])
+                { label4.Text = q[3]; count++; }
+                if (textBox1.Text == q[4])
+                { label5.Text = q[4]; count++; }
+                if (count >= 5)
+                {
+                    MessageBox.Show("Вы победили!");
+                }
+            }
             if (m == 1)
             {
                 //1 слово
@@ -106,7 +221,7 @@ namespace Game
             //3 слово
             if (m == 3)
             {
-                if(textBox1.Text == z)
+                if (textBox1.Text == z)
                 { MessageBox.Show("Вы победили!"); }
                 if (textBox1.Text == c[0])
                 { label1.Text = c[0]; count++; }
@@ -118,17 +233,57 @@ namespace Game
                 { label4.Text = c[3]; count++; }
                 if (textBox1.Text == c[4])
                 { label5.Text = c[4]; count++; }
-                if(count>= 5)
+                if (count >= 5)
                 {
                     MessageBox.Show("Вы победили!");
                 }
+                //4 слово
+            if (m == 4)
+            {
+                    if (textBox1.Text == n1)
+                    { MessageBox.Show("Вы победили!"); }
+                    if (textBox1.Text == n[0])
+                    { label1.Text = n[0]; count++; }
+                    if (textBox1.Text == n[1])
+                    { label2.Text = n[1]; count++; }
+                    if (textBox1.Text == n[2])
+                    { label3.Text = n[2]; count++; }
+                    if (textBox1.Text == n[3])
+                    { label4.Text = n[3]; count++; }
+                    if (textBox1.Text == c[4])
+                    { label5.Text = n[4]; count++; }
+                    if (count >= 5)
+                    {
+                        MessageBox.Show("Вы победили!");
+                    }
+            }
+                if (m == 5)
+                {
+                    if (textBox1.Text == q1)
+                    { MessageBox.Show("Вы победили!"); }
+                    if (textBox1.Text == q[0])
+                    { label1.Text = q[0]; count++; }
+                    if (textBox1.Text == q[1])
+                    { label2.Text = q[1]; count++; }
+                    if (textBox1.Text == q[2])
+                    { label3.Text = q[2]; count++; }
+                    if (textBox1.Text == q[3])
+                    { label4.Text = q[3]; count++; }
+                    if (textBox1.Text == q[4])
+                    { label5.Text = q[4]; count++; }
+                    if (count >= 5)
+                    {
+                        MessageBox.Show("Вы победили!");
+                    }
+                }
+
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Random r = new Random();
-            m = r.Next(1, 3);
+            m = r.Next(1, 5);
             if (m==1)
             {
                 MessageBox.Show("Это есть в каждом доме, здании и в каждом авто, этим мы пользуемся по несколько раз в день.");
@@ -140,6 +295,14 @@ namespace Game
             if(m==3)
             {
                 MessageBox.Show("Предмет домашней утвари, широко используемый в садоводстве и в хозяйстве.");
+            }
+            if(m==4)
+            {
+                MessageBox.Show("Предмет мебели");
+            }
+            if(m==5)
+            {
+                MessageBox.Show("Средство вывода информации");
             }
             
         }
@@ -200,6 +363,42 @@ namespace Game
                     count1 = 0;
                 }
             }
+            if(m == 4)
+            {
+                if (count1 == 0)
+                {
+                    MessageBox.Show("Не скажу!");
+                    count1++;
+                }
+                if (count1 == 1)
+                {
+                    MessageBox.Show("Нет!");
+                    count1++;
+                }
+                if (count1 == 2)
+                {
+                    MessageBox.Show("Ладно... это ДИВАН");
+                    count1 = 0;
+                }
+            }
+            if (m == 4)
+            {
+                if (count1 == 0)
+                {
+                    MessageBox.Show("Не скажу!");
+                    count1++;
+                }
+                if (count1 == 1)
+                {
+                    MessageBox.Show("Нет!");
+                    count1++;
+                }
+                if (count1 == 2)
+                {
+                    MessageBox.Show("Ладно... это ЭКРАН");
+                    count1 = 0;
+                }
+            }
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -210,6 +409,36 @@ namespace Game
         private void pictureBox5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            w1 = 1;
+            MessageBox.Show("Это есть в каждом доме, здании и в каждом авто, этим мы пользуемся по несколько раз в день.");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            w2 = 1;
+            MessageBox.Show("Это имеет несколько значений - в одном случаи мы используем это во время готовки на кухне, во втором случаи в качестве одежды и третьем в программировании.");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            w3 = 1;
+            MessageBox.Show("Предмет домашней утвари, широко используемый в садоводстве и в хозяйстве.");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            w4 = 1;
+            MessageBox.Show("Предмет мебели");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            w5 = 1;
+            MessageBox.Show("Средство вывода информации");
         }
     }
 }
