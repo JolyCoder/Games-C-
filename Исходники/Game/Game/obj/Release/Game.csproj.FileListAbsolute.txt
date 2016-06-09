@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\obj\Release\Game.Form1.resources
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\obj\Release\Game.Properties.Resources.resources
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\obj\Release\Game.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\bin\Release\Поле Чудес.exe.config
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\bin\Release\Поле Чудес.exe
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\bin\Release\Поле Чудес.pdb
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\obj\Release\Поле Чудес.exe
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\obj\Release\Поле Чудес.pdb
+C:\Users\Admin\Desktop\C#\Поле Чудес\Исходники\Game\Game\obj\Release\Game.csprojResolveAssemblyReference.cache
