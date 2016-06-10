@@ -86,12 +86,8 @@ namespace Game
         {
             if(w1 == 1)
             {
-                w2 = 0;
-                w3 = 0;
-                w4 = 0;
-                w5 = 0;
                 if (textBox1.Text == v)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = a[0]; label2.Text = a[1]; label3.Text = a[2]; label4.Text = a[3]; label5.Text = a[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == a[0])
                 { label1.Text = a[0]; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == a[1])
@@ -109,12 +105,8 @@ namespace Game
             }
             if (w2 == 1)
             {
-                w1 = 0;
-                w3 = 0;
-                w4 = 0;
-                w5 = 0;
                 if (textBox1.Text == d)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = b[0]; label2.Text = b[1]; label3.Text = b[2]; label4.Text = b[3]; label5.Text = b[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == b[0])
                 { label1.Text = b[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == b[1])
@@ -132,12 +124,8 @@ namespace Game
             }
             if(w3 == 1)
             {
-                w1 = 0;
-                w2 = 0;
-                w4 = 0;
-                w5 = 0;
                 if (textBox1.Text == z)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = c[0]; label2.Text = c[1]; label3.Text = c[2]; label4.Text = c[3]; label5.Text = c[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == c[0])
                 { label1.Text = c[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == c[1])
@@ -155,12 +143,8 @@ namespace Game
             }
             if(w4 == 1)
             {
-                w1 = 0;
-                w2 = 0;
-                w3 = 0;
-                w5 = 0;
                 if (textBox1.Text == n1)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = n[0]; label2.Text = n[1]; label3.Text = n[2]; label4.Text = n[3]; label5.Text = n[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == n[0])
                 { label1.Text = n[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == n[1])
@@ -178,12 +162,8 @@ namespace Game
             }
             if(w5==1)
             {
-                w1 = 0;
-                w2 = 0;
-                w3 = 0;
-                w4 = 0;
                 if (textBox1.Text == q1)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = q[0]; label2.Text = q[1]; label3.Text = q[2]; label4.Text = q[3]; label5.Text = q[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == q[0])
                 { label1.Text = q[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == q[1])
@@ -202,13 +182,8 @@ namespace Game
             if (m == 1)
             {
                 //1 слово
-                w1 = 0;
-                w2 = 0;
-                w3 = 0;
-                w4 = 0;
-                w5 = 0;
                 if (textBox1.Text == v)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = a[0]; label2.Text = a[1]; label3.Text = a[2]; label4.Text = a[3]; label5.Text = a[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == a[0])
                 { label1.Text = a[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == a[1])
@@ -227,13 +202,8 @@ namespace Game
             //2 слово
             if (m == 2)
             {
-                w1 = 0;
-                w2 = 0;
-                w3 = 0;
-                w4 = 0;
-                w5 = 0;
                 if (textBox1.Text == d)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = b[0]; label2.Text = b[1]; label3.Text = b[2]; label4.Text = b[3]; label5.Text = b[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == b[0])
                 { label1.Text = b[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == b[1])
@@ -252,13 +222,8 @@ namespace Game
             //3 слово
             if (m == 3)
             {
-                w1 = 0;
-                w2 = 0;
-                w3 = 0;
-                w4 = 0;
-                w5 = 0;
                 if (textBox1.Text == z)
-                { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                { label1.Text = c[0]; label2.Text = c[1]; label3.Text = c[2]; label4.Text = c[3]; label5.Text = c[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == c[0])
                 { label1.Text = c[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                 if (textBox1.Text == c[1])
@@ -276,13 +241,8 @@ namespace Game
                 //4 слово
             if (m == 4)
             {
-                    w1 = 0;
-                    w2 = 0;
-                    w3 = 0;
-                    w4 = 0;
-                    w5 = 0;
                     if (textBox1.Text == n1)
-                    { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                    { label1.Text = n[0]; label2.Text = n[1]; label3.Text = n[2]; label4.Text = n[3]; label5.Text = n[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                     if (textBox1.Text == n[0])
                     { label1.Text = n[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                     if (textBox1.Text == n[1])
@@ -300,13 +260,8 @@ namespace Game
             }
                 if (m == 5)
                 {
-                    w1 = 0;
-                    w2 = 0;
-                    w3 = 0;
-                    w4 = 0;
-                    w5 = 0;
                     if (textBox1.Text == q1)
-                    { MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
+                    { label1.Text = q[0]; label2.Text = q[1]; label3.Text = q[2]; label4.Text = q[3]; label5.Text = q[4]; MessageBox.Show("Вы победили!"); score = score + 500; label7.Text = "Очки:" + score; }
                     if (textBox1.Text == q[0])
                     { label1.Text = q[0]; count++; count++; score = score + 100; label7.Text = "Очки:" + score; }
                     if (textBox1.Text == q[1])
@@ -355,7 +310,7 @@ namespace Game
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if(m==1)
+            if(m==1 || w1 == 1)
             {
                 if (count1 == 0)
                 {
@@ -373,7 +328,7 @@ namespace Game
                     count1 = 0;
                 }
             }
-            if(m == 2)
+            if(m == 2 || w2 == 1)
             {
                 if (count1 == 0)
                 {
@@ -391,7 +346,7 @@ namespace Game
                     count1 = 0;
                 }
             }
-            if(m == 3)
+            if(m == 3 || w3 == 1)
             {
                 if (count1 == 0)
                 {
@@ -409,7 +364,7 @@ namespace Game
                     count1 = 0;
                 }
             }
-            if(m == 4)
+            if(m == 4 || w4 == 1)
             {
                 if (count1 == 0)
                 {
@@ -427,7 +382,7 @@ namespace Game
                     count1 = 0;
                 }
             }
-            if (m == 4)
+            if (m == 5 || w5 == 1)
             {
                 if (count1 == 0)
                 {
